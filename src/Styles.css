@@ -1,0 +1,24 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 200px;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  color: #888;
+}
